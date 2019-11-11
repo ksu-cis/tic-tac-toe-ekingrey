@@ -27,6 +27,7 @@ function onClick() {
 
 function nextTurn() {
 	//if (!checkForWin) {
+	//checkForWin();
 		if (currentTurn === "X") {
 			currentTurn = "O";
 		}
